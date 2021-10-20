@@ -435,7 +435,9 @@ public class Converter {
             System.out.printf("Годы в миллисекунды: %f лет = %.2f миллисекунды\n", input, result);
         }
     }
-    public static void Square() {}
+    public static void Square() {
+        System.out.println("Вы выбрали перевод единиц площади");
+    }
     public static void Value() {}
     public static void Speed() {}
     public static void Temperature() {}
