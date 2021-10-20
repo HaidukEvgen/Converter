@@ -264,6 +264,32 @@ public class Converter {
 
         //Бел руб во все валюты
 
+        if (choice == 5 && output == 1) {
+            double bel_rub_dollar_rate = 0.3987;
+            rate = input * bel_rub_dollar_rate;
+            System.out.printf("%s" + input + " по курсу " + bel_rub_dollar_rate + " Белорусский рубль в %s = %.2f\n", bel_rub_sym, us_dollar, rate);
+        } else if (choice == 5 && output == 2) {
+            double bel_rub_euro_rate = 0.342;
+            rate = input * bel_rub_euro_rate;
+            System.out.printf("%s" + input + " по курсу " + bel_rub_euro_rate + " Белорусский рубль в %s = %.2f\n", bel_rub_sym, euro, rate);
+        } else if (choice == 5 && output == 3) {
+            double bel_rub_pound_rate = 0.29;
+            rate = input * bel_rub_pound_rate;
+            System.out.printf("%s" + input + " по курсу " + bel_rub_pound_rate + " Белорусский рубль в %s = %.2f\n", bel_rub_sym, pound, rate);
+        } else if (choice == 5 && output == 4) {
+            double bel_rub_yen_rate = 44.74;
+            rate = input * bel_rub_yen_rate;
+            System.out.printf("%s" + input + " по курсу " + bel_rub_yen_rate + " Белорусский рубль в %s = %.2f\n", bel_rub_sym, yen, rate);
+        } else if (choice == 5 && output == 6) {
+            double bel_rub_rus_rub_rate = 29.025;
+            rate = input * bel_rub_rus_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + bel_rub_rus_rub_rate + " Белорусский рубль в %s = %.2f\n", bel_rub_sym, rus_rub, rate);
+        } else if (choice == 5) {
+            double bel_rub_zloty_rate = 1.58;
+            rate = input * bel_rub_zloty_rate;
+            System.out.printf("%s" + input + " по курсу " + bel_rub_zloty_rate + " Белорусский рубль в %s = %.2f\n", bel_rub_sym, zloty, rate);
+        }
+
         // Рос руб во все валюты
 
         // Злотый во все валюты
