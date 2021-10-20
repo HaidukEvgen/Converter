@@ -192,6 +192,18 @@ public class Converter {
             double euro_yen_rate = 136.708;
             rate = input * euro_yen_rate;
             System.out.printf("%s" + input + " по курсу " + euro_yen_rate + " Евро в %s = %.2f\n", euro_sym, yen, rate);
+        } else if (choice == 2 && output == 5) {
+            double euro_bel_rub_rate = 2.9394;
+            rate = input * euro_bel_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + euro_bel_rub_rate + " Евро в %s = %.2f\n", euro_sym, bel_rub, rate);
+        } else if (choice == 2 && output == 6) {
+            double euro_rus_rub_rate = 84.875;
+            rate = input * euro_rus_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + euro_rus_rub_rate + " Евро в %s = %.2f\n", euro_sym, rus_rub, rate);
+        } else if (choice == 2) {
+            double euro_zloty_rate = 4.63;
+            rate = input * euro_zloty_rate;
+            System.out.printf("%s" + input + " по курсу " + euro_zloty_rate + " Евро в %s = %.2f\n", euro_sym, zloty, rate);
         }
 
         //Английский фунт во все валюты
