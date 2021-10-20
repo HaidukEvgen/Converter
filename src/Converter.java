@@ -439,6 +439,8 @@ public class Converter {
         double result;
         boolean isIncorrect;
         System.out.println("Вы выбрали перевод единиц площади");
+        Scanner in = new Scanner(System.in);
+        int choice = 0;
     }
     public static void Value() {}
     public static void Speed() {}
