@@ -248,6 +248,18 @@ public class Converter {
             double yen_pound_rate = 0.00579135;
             rate = input * yen_pound_rate;
             System.out.printf("%s" + input + " по курсу " + yen_pound_rate + " Японская йена %s = %.2f\n", yen_sym, pound, rate);
+        } else if (choice == 4 && output == 5) {
+            double yen_bel_rub_rate = 0.022;
+            rate = input * yen_bel_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + yen_bel_rub_rate + " Японская йена в %s = %.2f\n", yen_sym, bel_rub, rate);
+        } else if (choice == 3 && output == 6) {
+            double yen_rus_rub_rate = 65.16;
+            rate = input * yen_rus_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + yen_rus_rub_rate + " Японская йена в %s = %.2f\n", yen_sym, rus_rub, rate);
+        } else if (choice == 3) {
+            double yen_zloty_rate = 0.036;
+            rate = input * yen_zloty_rate;
+            System.out.printf("%s" + input + " по курсу " + yen_zloty_rate + " Японская йена в %s = %.2f\n", yen_sym, zloty, rate);
         }
 
         //Бел руб во все валюты
