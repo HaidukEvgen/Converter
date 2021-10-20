@@ -220,6 +220,18 @@ public class Converter {
             double pound_yen_rate = 172.511;
             rate = input * pound_yen_rate;
             System.out.printf("%s" + input + " по курсу " + pound_yen_rate + " Английский фунт в %s = %.2f\n", pound_sym, yen, rate);
+        } else if (choice == 3 && output == 5) {
+            double pound_bel_rub_rate = 3.4181;
+            rate = input * pound_bel_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + pound_bel_rub_rate + " Английский фунт в %s = %.2f\n", pound_sym, bel_rub, rate);
+        } else if (choice == 3 && output == 6) {
+            double pound_rus_rub_rate = 99.0681;
+            rate = input * pound_rus_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + pound_rus_rub_rate + " Английский фунт в %s = %.2f\n", pound_sym, rus_rub, rate);
+        } else if (choice == 3) {
+            double pound_zloty_rate = 5.4007;
+            rate = input * pound_zloty_rate;
+            System.out.printf("%s" + input + " по курсу " + pound_zloty_rate + " Английский фунт в %s = %.2f\n", pound_sym, zloty, rate);
         }
 
         //Йена во все валюты
