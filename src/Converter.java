@@ -320,6 +320,32 @@ public class Converter {
 
         // Злотый во все валюты
 
+        if (choice == 7 && output == 1) {
+            double zloty_dollar_rate = 0.253;
+            rate = input * zloty_dollar_rate;
+            System.out.printf("%s" + input + " по курсу " + zloty_dollar_rate + " Польский злотый в %s = %.2f\n", zloty_sym, us_dollar, rate);
+        } else if (choice == 7 && output == 2) {
+            double zloty_euro_rate = 0.2166;
+            rate = input * zloty_euro_rate;
+            System.out.printf("%s" + input + " по курсу " + zloty_euro_rate + " Польский злотый в %s = %.2f\n", zloty_sym, euro, rate);
+        } else if (choice == 7 && output == 3) {
+            double zloty_pound_rate = 0.1852;
+            rate = input * zloty_pound_rate;
+            System.out.printf("%s" + input + " по курсу " + zloty_pound_rate + " Польский злотый в %s = %.2f\n", zloty_sym, pound, rate);
+        } else if (choice == 7 && output == 4) {
+            double zloty_yen_rate = 28.04;
+            rate = input * zloty_yen_rate;
+            System.out.printf("%s" + input + " по курсу " + zloty_yen_rate + " Польский злотый в %s = %.2f\n", zloty_sym, yen, rate);
+        } else if (choice == 7 && output == 5) {
+            double zloty_bel_rub_rate = 0.6329;
+            rate = input * zloty_bel_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + zloty_bel_rub_rate + " Польский злотый в %s = %.2f\n", zloty_sym, bel_rub, rate);
+        } else if (choice == 7) {
+            double zloty_rus_rub_rate = 18.3435;
+            rate = input * zloty_rus_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + zloty_rus_rub_rate + " Польский злотый в %s = %.2f\n", zloty_sym, rus_rub, rate);
+        }
+
     }
     public static void Length() {
         double result;
