@@ -436,6 +436,8 @@ public class Converter {
         }
     }
     public static void Square() {
+        double result;
+        boolean isIncorrect;
         System.out.println("Вы выбрали перевод единиц площади");
     }
     public static void Value() {}
