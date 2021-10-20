@@ -292,6 +292,32 @@ public class Converter {
 
         // Рос руб во все валюты
 
+        if (choice == 6 && output == 1) {
+            double rus_rub_dollar_rate = 0.0137;
+            rate = input * rus_rub_dollar_rate;
+            System.out.printf("%s" + input + " по курсу " + rus_rub_dollar_rate + " Российский рубль в %s = %.2f\n", rus_rub_sym, us_dollar, rate);
+        } else if (choice == 6 && output == 2) {
+            double rus_rub_euro_rate = 0.012;
+            rate = input * rus_rub_euro_rate;
+            System.out.printf("%s" + input + " по курсу " + rus_rub_euro_rate + " Российский рубль в %s = %.2f\n", rus_rub_sym, euro, rate);
+        } else if (choice == 6 && output == 3) {
+            double rus_rub_pound_rate = 0.0102;
+            rate = input * rus_rub_pound_rate;
+            System.out.printf("%s" + input + " по курсу " + rus_rub_pound_rate + " Российский рубль в %s = %.2f\n", rus_rub_sym, pound, rate);
+        } else if (choice == 6 && output == 4) {
+            double rus_rub_yen_rate = 1.5347;
+            rate = input * rus_rub_yen_rate;
+            System.out.printf("%s" + input + " по курсу " + rus_rub_yen_rate + " Российский рубль в %s = %.2f\n", rus_rub_sym, yen, rate);
+        } else if (choice == 6 && output == 5) {
+            double rus_rub_bel_rub_rate = 0.034;
+            rate = input * rus_rub_bel_rub_rate;
+            System.out.printf("%s" + input + " по курсу " + rus_rub_bel_rub_rate + " Российский рубль в %s = %.2f\n", rus_rub_sym, bel_rub, rate);
+        } else if (choice == 6) {
+            double rus_rub_zloty_rate = 0.055;
+            rate = input * rus_rub_zloty_rate;
+            System.out.printf("%s" + input + " по курсу " + rus_rub_zloty_rate + " Российский рубль в %s = %.2f\n", rus_rub_sym, zloty, rate);
+        }
+
         // Злотый во все валюты
 
     }
